@@ -37,6 +37,6 @@ api.add_resource(Query1, '/query1/', endpoint='query1')
 
 if __name__ == "__main__":
     """Inicia o servidor."""
-    host = "localhost"
+    host = "0.0.0.0"
     app.run(host, debug=True)
 
